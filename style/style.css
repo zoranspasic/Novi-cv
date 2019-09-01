@@ -1,0 +1,67 @@
+* {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#centar, #desno, #fotka, #podaci, #obrazovanje, #iskustvo, #kontakt_levo, #kontakt_formular, #glavni-projekti, nav {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fbfbf0;
+    box-shadow: 10px 10px 10px lightseagreen;
+    opacity: 0.95;
+}
+
+#fotka {
+    height: 250px;
+}
+
+div > a {
+    width: 30px;
+    line-height: 30px;
+}
+
+#glavni-projekti > a:hover, #social > a:hover, .nav-item:hover {
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+td {
+    min-width: 300px;
+    line-height: 10px;
+}
+
+#podaci >p >span, #obrazovanje > p >span, #iskustvo > p >span {
+    font-weight: bold;
+}
+
+h1, h3, h5 {
+    color: darkblue; 
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#arrow {
+    font-size: 36px;
+    color: darkblue;
+    float: right;
+}
+
+#arrow:hover {
+    color: red;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    color:beige;
+    padding-bottom: 10px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
