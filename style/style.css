@@ -3,7 +3,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#centar, #desno, #fotka, #podaci, #obrazovanje, #iskustvo, #kontakt_levo, #kontakt_formular, #glavni-projekti, nav {
+#centar, #desno, #fotka, #podaci, #obrazovanje, #iskustvo, #kontakt_levo, #kontakt_formular, #glavni-projekti, nav,
+#centar-eng, #desno-eng, #podaci-eng, #obrazovanje-eng, #iskustvo-eng, #kontakt_levo-eng, #kontakt_formular-eng, #glavni-projekti-eng {
     border: 1px solid black;
     border-radius: 10px;
     background-color: #fbfbf0;
@@ -15,7 +16,7 @@
     height: 250px;
 }
 
-#glavni-projekti > a, td > a {
+#glavni-projekti > a, td > a, #glavni-projekti-eng > a {
     width: 30px;
     height: 30px;
     padding: 10px;
@@ -58,10 +59,4 @@ h5 {
     font-size: 10px;
     color:beige;
     padding-bottom: 10px;
-}
-
-#social {
-    width: 30px; 
-    height: 30px; 
-    padding: 6px;
 }
