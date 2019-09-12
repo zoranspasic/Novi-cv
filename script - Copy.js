@@ -6,9 +6,7 @@ $(document).ready(function () {
 
     event.preventDefault();
 
-    let izbor = this.hash;
-
-    console.log(izbor);
+    let izbor = $(this).attr("href");
 
     if (izbor == "#pocetak") {
       $("#glavni-projekti").hide();
@@ -86,7 +84,7 @@ $(document).ready(function () {
 
     }
 
-    else if (izbor == "#./index.html") {
+    else if (izbor == "./index.html") {
 
       $("#nav").show();
       $("#glavni").show();
@@ -120,6 +118,5 @@ $(document).ready(function () {
     $("#glavni-kontakt").hide();
 
   }
-
 
 });
