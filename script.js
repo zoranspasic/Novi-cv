@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   $("a").click(function () {
 
-    event.preventDefault();
+    //event.preventDefault();
 
     let izbor = this.hash;
 
